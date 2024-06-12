@@ -7,7 +7,7 @@ class Solution {
             if((xor&mask)!=0){
                 count++;
             }
-            mask<<=1;
+            xor>>=1;
         }
         return count;
     }
