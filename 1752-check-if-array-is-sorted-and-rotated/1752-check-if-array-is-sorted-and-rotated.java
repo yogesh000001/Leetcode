@@ -9,6 +9,6 @@ class Solution {
         if(nums[nums.length-1]>nums[0]){
             count++;
         }
-        return count <= 1;
+        return count<=1;
     }
 }
