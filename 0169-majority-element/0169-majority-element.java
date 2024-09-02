@@ -6,7 +6,7 @@ class Solution {
             if(count == 0){
                 majority = nums[i];
                 count = 1;
-            }else if(nums[i] == majority){
+            }else if(majority == nums[i]){
                 count++;
             }else{
                 count--;
